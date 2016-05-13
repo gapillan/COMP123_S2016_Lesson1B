@@ -4,9 +4,24 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Lesson1TestProject
 {
+    /**
+     * 
+     * This Class is used to test the Lesson 1 Project
+     * Used for development only. 
+     * 
+     * @class Lesson1UnitTest
+     */
+
     [TestClass]
     public class Lesson1UnitTest
     {
+        /**
+         * Unit Test for OutputStringToConsole Method of the Program Class 
+         * 
+         * @method OutputStringToConsoleTestMethod 
+         * 
+         */
+
         [TestMethod]
         public void OutputStringToConsoleTestMethod()
         {
